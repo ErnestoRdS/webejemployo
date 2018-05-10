@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %}
+
+{% block title %}About{% endblock title %}
+
+{%block background %}{%load static %}{% static 'core/img/about-bg.jpg' %}{% endblock background %}
+
+{% block h%}Ernesto :v{% endblock h %} 
+
+{%block subtitle %}Biografia{% endblock subtitle %}
+
+
+
+{% block content %}
+<!-- Contenido Principal -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Otra vez yo :v</h2>
+          <p>De chamaquito, primero, fui pandillero. Luego rapero, después vino el dinero. Y para ser sincero, vengo de cero.</p>
+          <p>Nací en el guero, nada espero, pero: ¡Esta vida me encanta!</p>
+        </div>
+      </div>
+    </div> 
+{% endblock content %}
